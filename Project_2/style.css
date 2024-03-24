@@ -50,5 +50,7 @@ body div span hr {
 }
 
 .active {
+  color: white;
+  background-color: rgb(0, 115, 255);
   border-color: rgb(0, 115, 255);
 }
