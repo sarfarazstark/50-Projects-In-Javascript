@@ -15,7 +15,7 @@
 
 ### Projects
 <body>
-<table>
+ <table>
     <thead>
         <tr>
             <th>#</th>
