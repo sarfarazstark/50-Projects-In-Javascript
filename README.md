@@ -1,5 +1,3 @@
-<body>
- 
 # 50-Projects-In-JavaScript 💻
 
 50 Mini Web Projects using **Vanilla HTML, CSS &amp; Javascript.** It contains lots of fun and interesting small Projects to understand fundamentals of HTML, CSS and JS. All the Webpages are responsive and build without using any Frameworks.
@@ -16,6 +14,7 @@
 - JSON, Promises & Async/Await, Local storage APIs, Canvas API & Animation, etc.
 
 ### Projects
+<body>
  <table>
     <thead>
         <tr>
@@ -429,11 +428,4 @@
             <td></td>
         </tr>
     </table>
-
-
-
-## Acknowledgments 💳
-
-[50 Projects 50 Days](https://www.udemy.com/course/50-projects-50-days/) by [Brad Traversy](https://www.youtube.com/traversymedia) & [Florin Pop](https://www.youtube.com/florinpop)
-
 </body>
