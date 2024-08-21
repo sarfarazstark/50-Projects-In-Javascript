@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* table design like github */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #d1d5da;
+}
+
+th, td {
+  border: 1px solid #d1d5da;
+  padding: 6px 13px;
+}
+
+th {
+  background-color: #f6f8fa;
+}
+
+
+tbody>tr:nth-child(even) {
+  background-color: #ebecec;
+}
+
+/* table design like github */
+
+body{
+  padding: 20px;
+}
+li{
+  margin-left: 30px;
+
+}
+li,p{
+  line-height: 190%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 20px 0;
+}
+
+/* link style */
+a{
+  color: #0303d6;
+  text-decoration: none;
+  transition: font-weight 0.3s;
+}
+
+a:hover{
+  color: rgb(102, 255, 0);
+}
+/* link style */
+
+/* dark theme prefer color scheme*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+  table {
+    border: 1px solid #30363d;
+  }
+
+  th {
+    background-color: #161b22;
+  }
+
+  tbody>tr:nth-child(even) {
+    background-color: #1c1f24;
+  }
+
+  a{
+    color: #58a6ff;
+  }
+}
