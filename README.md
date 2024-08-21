@@ -17,7 +17,7 @@
 
 - [x] **Expanding Cards** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/1-Expanding%20Cards/) — March 19 2024
 - [x] **Progress Steps** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/2-Progress%20Steps/) — Mar 24, 2024
-- [x] **Rotating Navigation Animation** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/3-Rotating%20Navigation%20Animation/) —
+- [x] **Rotating Navigation Animation** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/3-Rotating%20Navigation%20Animation/) — Aug 21, 2024
 - [ ] **Hidden Search Widget** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/4-Hidden%20Search%20Widget/) —
 - [ ] **Blurry Loading** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/5-Blurry%20Loading/) —
 - [ ] **Scroll Animation** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/6-Scroll%20Animation/) —
