@@ -15,8 +15,8 @@
 
 ### Projects
 
-- [x] **Expanding Cards** — [Live Demo](./1-Expanding%20Cards/) — March 19 2024
-- [x] **Progress Steps** — [Live Demo](./2-Progress%20Steps/) — Mar 24, 2024
+- [x] **Expanding Cards** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/1-Expanding%20Cards/) — March 19 2024
+- [x] **Progress Steps** — [Live Demo](https://sarfarazstark.github.io/50-Projects-In-Javascript/2-Progress%20Steps/) — Mar 24, 2024
 - [ ] **Rotating Navigation Animation** — [Live Demo](#) —
 - [ ] **Hidden Search Widget** — [Live Demo](#) —
 - [ ] **Blurry Loading** — [Live Demo](#) —
