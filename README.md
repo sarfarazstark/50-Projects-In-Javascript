@@ -58,7 +58,7 @@
             <td><strong>Hidden Search Widget</strong></td>
             <td><a href="https://50projects-50-days.netlify.app/04.%20hidden%20search%20widget/" target="_blank">Problem</a></td>
             <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/4-Hidden%20Search%20Widget/" target="_blank">Solution</a></td>
-            <td></td>
+            <td>Aug 22, 2024</td>
         </tr>
         <tr>
             <td>05</td>
