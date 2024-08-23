@@ -70,11 +70,12 @@
         </tr>
         <tr>
             <td>06</td>
-            <td>❌</td>
+            <td>✅</td>
             <td><strong>Scroll Animation</strong></td>
             <td><a href="https://50projects-50-days.netlify.app/06.%20scroll%20animation/" target="_blank">Problem</a></td>
-            <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/6-Scroll%20Animation/" target="_blank">Solution</a></td>
-            <td></td>
+            <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/6-Scroll%20Animation/"
+            target="_blank">Solution</a></td>
+            <td>Aug 24, 2024</td>
         </tr>
         <tr>
             <td>07</td>
