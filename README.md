@@ -79,11 +79,11 @@
         </tr>
         <tr>
             <td>07</td>
-            <td>❌</td>
+            <td>✅</td>
             <td><strong>Split Landing Page</strong></td>
             <td><a href="https://50projects-50-days.netlify.app/07.%20split%20landing%20page/" target="_blank">Problem</a></td>
             <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/7-Split%20Landing%20Page/" target="_blank">Solution</a></td>
-            <td></td>
+            <td>Aug 24, 2023</td>
         </tr>
         <tr>
             <td>08</td>
