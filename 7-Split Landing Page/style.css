@@ -21,7 +21,7 @@ main {
   height: 100%;
   width: 100%;
   font-size: 2vw;
-  transition: all 0.5s;
+  transition: all 1s;
 
 }
 
@@ -35,7 +35,7 @@ main section {
   color: white;
   position: relative;
   z-index: 2;
-  transition: width 0.5s;
+  transition: width 1s ease-out;
 }
 
 
