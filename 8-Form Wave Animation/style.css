@@ -51,19 +51,26 @@ form input {
 form label {
   color: #fff;
   font-size: 1.1vw;
-  text-transform: uppercase;
-  margin-bottom: 0.5vw;
+  /* text-transform: uppercase; */
   position: absolute;
+  margin-bottom: 0.5vw;
   height: 100%;
   top: 0;
   left: 0;
-  transition: all 0.3s;
 }
 
-
-form input:focus ~ label {
-  top: -1.5vw;
+form label span {
+  transition: all 0.2s;
 }
+
+form input:focus ~ label span {
+  color: #ffffff4e;
+  display: inline-block;
+  transform-origin: center;
+  transform: translateY(-100%);
+  transition: transform 0.2s ease;
+}
+
 
 form button {
   width: 100%;
