@@ -87,11 +87,11 @@
         </tr>
         <tr>
             <td>08</td>
-            <td>❌</td>
+            <td>✅</td>
             <td><strong>Form Wave Animation</strong></td>
             <td><a href="https://50projects-50-days.netlify.app/08.%20form%20wave%20animation/" target="_blank">Problem</a></td>
             <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/8-Form%20Wave%20Animation/" target="_blank">Solution</a></td>
-            <td></td>
+            <td>Aug 25, 2024</td>
         </tr>
         <tr>
             <td>09</td>
