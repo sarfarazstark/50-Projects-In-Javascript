@@ -93,14 +93,19 @@
             <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/8-Form%20Wave%20Animation/" target="_blank">Solution</a></td>
             <td>Aug 25, 2024</td>
         </tr>
-        <tr>
-            <td>09</td>
-            <td>❌</td>
-            <td><strong>Sound Board</strong></td>
-            <td><a href="https://50projects-50-days.netlify.app/09.%20sound%20board/" target="_blank">Problem</a></td>
-            <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/9-Sound%20Board/" target="_blank">Solution</a></td>
-            <td></td>
-        </tr>
+      <tr>
+        <td>09</td>
+        <td>✅</td>
+        <td><strong>Sound Board</strong></td>
+        <td>
+          <a href="https://50projects-50-days.netlify.app/09.%20sound%20board/" target="_blank">Problem</a>
+        </td>
+        <td>
+          <a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/9-Sound%20Board/"
+            target="_blank">Solution</a>
+        </td>
+        <td>Aug 27, 2024</td>
+      </tr>
         <tr>
             <td>10</td>
             <td>❌</td>
