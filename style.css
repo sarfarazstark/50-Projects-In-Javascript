@@ -81,7 +81,7 @@ main {
 }
 
 #content {
-  display: inherit;
+  display: flex;
   flex-direction: column;
   padding: 20px;
   gap: 1em;
