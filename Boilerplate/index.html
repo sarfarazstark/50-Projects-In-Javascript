@@ -10,6 +10,28 @@
   </script> -->
   <link rel="stylesheet" href="style.css">
   <title>Project--NAME</title>
+  <script>
+    function createFavicon(number) {
+      const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <rect width="64" height="64" fill="red"/>
+                <text x="50%" y="50%" font-size="50" text-anchor="middle" fill="white" dy=".3em" font-family="Arial" font-weight="bold">${number}</text>
+            </svg>
+        `;
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+
+    function setFavicon(number) {
+      const link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = createFavicon(number);
+      document.head.appendChild(link);
+    }
+
+    window.onload = function () {
+      setFavicon('1'); // Replace '5' with any number you want
+    };
+  </script>
 </head>
 
 <body>
