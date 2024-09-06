@@ -1,8 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+
+main {
+  max-width: 1000px;
 }
 
 /* table design like github */
@@ -13,7 +17,8 @@ table {
   border: 1px solid #d1d5da;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #d1d5da;
   padding: 6px 13px;
 }
@@ -23,37 +28,46 @@ th {
 }
 
 
-tbody>tr:nth-child(even) {
+tbody > tr:nth-child(even) {
   background-color: #ebecec;
 }
 
 /* table design like github */
 
-body{
+body {
   padding: 20px;
 }
-li{
+
+li {
   margin-left: 30px;
 
 }
-li,p{
+
+li,
+p {
   line-height: 190%;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 20px 0;
 }
 
 /* link style */
-a{
+a {
   color: #0303d6;
   text-decoration: none;
   transition: font-weight 0.3s;
 }
 
-a:hover{
+a:hover {
   color: rgb(102, 255, 0);
 }
+
 /* link style */
 
 /* dark theme prefer color scheme*/
@@ -62,6 +76,7 @@ a:hover{
     background-color: #0d1117;
     color: #c9d1d9;
   }
+
   table {
     border: 1px solid #30363d;
   }
@@ -70,11 +85,11 @@ a:hover{
     background-color: #161b22;
   }
 
-  tbody>tr:nth-child(even) {
+  tbody > tr:nth-child(even) {
     background-color: #1c1f24;
   }
 
-  a{
+  a {
     color: #58a6ff;
   }
 }
