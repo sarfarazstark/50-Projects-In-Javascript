@@ -184,10 +184,6 @@ td {
   }
 }
 
-table a {
-  color: var(--link-color);
-  text-decoration: underline;
-}
 
 table a:hover {
   color: var(--link-hover-color);
