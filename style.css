@@ -80,7 +80,7 @@ main {
   max-width: 1000px;
 }
 
-#content {
+div#content {
   display: flex;
   flex-direction: column;
   padding: 20px;
