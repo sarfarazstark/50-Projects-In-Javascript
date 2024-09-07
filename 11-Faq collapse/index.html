@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script defer src="../feather.js"></script>
+  <script defer>
+    feather.replace();
+  </script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Faq collapse</title>
+  <script>
+    function createFavicon(number) {
+      const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <rect width="64" height="64" fill="#209CEE"/>
+                <text x="50%" y="50%" font-size="50" text-anchor="middle" fill="white" dy=".3em" font-family="Roboto" font-weight="bold">${number}</text>
+            </svg>
+        `;
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+
+    function setFavicon(number) {
+      const link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = createFavicon(number);
+      document.head.appendChild(link);
+    }
+
+    window.onload = function () {
+      setFavicon('11'); // Replace '5' with any number you want
+    };
+  </script>
+</head>
+
+<body>
+  <main>
+    <h1>Frequently asked questions</h1>
+    <ul class="faqs">
+      <li>
+        <details>
+          <summary>Why Shouldn't we trust Atoms?</summary>
+          <p class="info">They Make up Everything</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>What do you call someone with nobody and no nose?</summary>
+          <p class="info">Nobody Knows</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>What's the object-oriented way to become wealthy?</summary>
+          <p class="info">Inheritance</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>How many tickles does it take to tickle and octopus?</summary>
+          <p class="info">Ten-Tickles!</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>What is 1+1?</summary>
+          <p class="info">Depends on who you are asking.</p>
+        </details>
+      </li>
+    </ul>
+
+  </main>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
