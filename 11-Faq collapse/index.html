@@ -8,8 +8,9 @@
   <script defer>
     feather.replace();
   </script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>Project--NAME</title>
+  <title>Faq collapse</title>
   <script>
     function createFavicon(number) {
       const svg = `
@@ -35,7 +36,42 @@
 </head>
 
 <body>
-  <h1>Project Starter</h1>
+  <main>
+    <h1>Frequently asked questions</h1>
+    <ul class="faqs">
+      <li>
+        <details>
+          <summary>Why Shouldn't we trust Atoms?</summary>
+          <p class="info">They Make up Everything</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>What do you call someone with nobody and no nose?</summary>
+          <p class="info">Nobody Knows</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>What's the object-oriented way to become wealthy?</summary>
+          <p class="info">Inheritance</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>How many tickles does it take to tickle and octopus?</summary>
+          <p class="info">Ten-Tickles!</p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>What is 1+1?</summary>
+          <p class="info">Depends on who you are asking.</p>
+        </details>
+      </li>
+    </ul>
+
+  </main>
   <script src="script.js"></script>
 
 </body>
