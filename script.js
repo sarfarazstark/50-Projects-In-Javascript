@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				solutionAnchor.href = '#';
 				solutionAnchor.style.color = 'gray';
 				solutionAnchor.style.cursor = 'not-allowed';
-				solutionAnchor.setAttribute('target', '_self');
+				solutionAnchor.removeAttribute('target');
 			}
 		} else {
 			solutionAnchor.innerHTML = `${solutionAnchor.innerHTML}<i data-feather="check-circle"></i>`;
