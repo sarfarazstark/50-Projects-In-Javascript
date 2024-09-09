@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script defer src="../feather.js"></script>
+  <script defer>
+    feather.replace();
+  </script> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Animated Navigation</title>
+  <script>
+    function createFavicon(number) {
+      const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <rect width="64" height="64" fill="#209CEE"/>
+                <text x="50%" y="50%" font-size="50" text-anchor="middle" fill="white" dy=".3em" font-family="Roboto" font-weight="bold">${number}</text>
+            </svg>
+        `;
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+
+    function setFavicon(number) {
+      const link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = createFavicon(number);
+      document.head.appendChild(link);
+    }
+
+    window.onload = function () {
+      setFavicon('14'); // Replace '5' with any number you want
+    };
+  </script>
+</head>
+
+<body>
+  <main>
+    <nav class="active">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <label for="toggle">
+        <input type="checkbox" id="toggle" style="display: none;">
+        <span class="menu-btn active"></span>
+      </label>
+    </nav>
+  </main>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
