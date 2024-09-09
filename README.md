@@ -145,11 +145,11 @@
         </tr>
         <tr>
             <td>14</td>
-            <td>❌</td>
+            <td>✅</td>
             <td><strong>Animated Navigation</strong></td>
             <td><a href="https://50projects-50-days.netlify.app/14.%20animated%20navigation/" target="_blank">Problem</a></td>
             <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/14-Animated%20Navigation/" target="_blank">Solution</a></td>
-            <td></td>
+            <td>Sep 9, 2024</td>
         </tr>
         <tr>
             <td>15</td>
