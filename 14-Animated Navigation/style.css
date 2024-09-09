@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #FFF5E4 50%, #6A9C89 50%, #6A9C89 100%);
+}
+
+
+main nav {
+  background: #fff;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: .2em;
+  padding: 1.5rem;
+  position: relative;
+  transition: width .5s ease;
+  width: auto;
+  overflow: hidden;
+}
+
+
+ul {
+  display: inline-flex;
+  gap: 1rem;
+  list-style: none;
+  width: 0;
+  transition: width .5s ease-out, margin-right .5s ease-out, opacity .5s ease-out;
+  opacity: 0;
+}
+
+nav.active ul {
+  width: 240px;
+  margin-right: 1rem;
+  opacity: 1;
+}
+
+ul li {
+  display: inline-flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color .2s, transform .2s;
+}
+
+a:hover {
+  color: #6A9C89;
+}
+
+label[for="toggle"] {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.menu-btn {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: inherit;
+  position: relative;
+}
+
+.menu-btn::before,
+.menu-btn::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background-color: #6A9C89;
+  top: 50%;
+  left: 0;
+  border-radius: 2px;
+  transform-origin: center center;
+  transition: transform .5s;
+}
+
+.menu-btn::before {
+  top: 40%;
+  transform: rotate(720deg);
+}
+
+.menu-btn::after {
+  top: 65%;
+  transform: rotate(-720deg);
+
+}
+
+nav.active .menu-btn::before {
+  top: 50%;
+  transform: rotate(45deg);
+  animation: rotate-animation .5s linear alternate-reverse;
+}
+
+nav.active .menu-btn::after {
+  top: 50%;
+  transform: rotate(-45deg);
+  animation: rotate-animation .5s linear;
+}
+
+@keyframes rotate-animation {
+  0% {
+    top: 50%;
+    transform: rotate(0deg);
+  }
+
+  25% {
+    top: 50%;
+    transform: rotate(90deg);
+  }
+
+  50% {
+    top: 50%;
+    transform: rotate(180deg);
+  }
+
+  75% {
+    top: 50%;
+    transform: rotate(270deg);
+  }
+
+  100% {
+    top: 50%;
+    transform: rotate(360deg);
+  }
+}
