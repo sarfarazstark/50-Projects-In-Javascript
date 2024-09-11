@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script defer src="../feather.js"></script>
+  <script defer>
+    feather.replace();
+  </script> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Drink Water</title>
+  <script>
+    function createFavicon(number) {
+      const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <rect width="64" height="64" fill="#209CEE"/>
+                <text x="50%" y="50%" font-size="50" text-anchor="middle" fill="white" dy=".3em" font-family="Roboto" font-weight="bold">${number}</text>
+            </svg>
+        `;
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+
+    function setFavicon(number) {
+      const link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = createFavicon(number);
+      document.head.appendChild(link);
+    }
+
+    window.onload = function () {
+      setFavicon('16'); // Replace '5' with any number you want
+    };
+  </script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Drink Water</h1>
+      <p>Goal: 2 Litres</p>
+    </header>
+    <section>
+      <h4>How many Glasses of Water that you have Drank?</h4>
+      <div class="meter">
+        <div class="range"></div>
+      </div>
+    </section>
+    <div class="counter">
+      <button class="decrease">-</button>
+      <span>0</span>
+      <button class="increase">+</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
