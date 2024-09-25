@@ -169,11 +169,11 @@
         </tr>
         <tr>
             <td>17</td>
-            <td>❌</td>
+            <td>1=✅</td>
             <td><strong>Movie App</strong></td>
             <td><a href="https://50projects-50-days.netlify.app/17.%20movie%20app/" target="_blank">Problem</a></td>
             <td><a href="https://sarfarazstark.github.io/50-Projects-In-Javascript/17-Movie%20App/" target="_blank">Solution</a></td>
-            <td></td>
+            <td>Sep 26, 2024</td>
         </tr>
     </table>
 </body>
