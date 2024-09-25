@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --raisin-black: hsla(0, 3%, 14%, 1);
+  --slate-gray: hsla(221, 11%, 49%, 1);
+  --isabelline: hsla(30, 29%, 95%, 1);
+  --bone: hsla(44, 29%, 80%, 1);
+  --khaki: hsla(33, 17%, 59%, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  /* align-items: center; */
+}
+
+main {
+  width: clamp(375px, 80%, 1000px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--raisin-black);
+}
+
+nav input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid var(--khaki);
+  border-radius: 5px;
+  width: clamp(200px, 50%, 300px);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+section.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.movie {
+  background-color: var(--isabelline);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.movie img {
+  width: 100%;
+  /* height: 90%; */
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-info h3 {
+  font-size: 1.25rem;
+  color: var(--raisin-black);
+}
+
+.movie-rating {
+  background-color: var(--raisin-black);
+  color: orange;
+  padding: 0.25rem 0.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.movie-overview {
+  position: absolute;
+  padding: 1rem;
+  width: 100%;
+  background-color: var(--isabelline);
+  bottom: -1000%;
+  left: 0;
+  transition: bottom 0.3s ease-in-out;
+  overflow: auto;
+}
+
+.movie-overview p {
+  font-size: 0.9rem;
+  color: var(--raisin-black);
+  margin-top: 0.5rem;
+}
+
+.movie:has(:hover) .movie-overview {
+  bottom: 0;
+}

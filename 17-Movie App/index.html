@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script defer src="../feather.js"></script>
+  <script defer>
+    feather.replace();
+  </script> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Movie App</title>
+  <script>
+    function createFavicon(number) {
+      const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <rect width="64" height="64" fill="#209CEE"/>
+                <text x="50%" y="50%" font-size="50" text-anchor="middle" fill="white" dy=".3em" font-family="Roboto" font-weight="bold">${number}</text>
+            </svg>
+        `;
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+
+    function setFavicon(number) {
+      const link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = createFavicon(number);
+      document.head.appendChild(link);
+    }
+
+    window.onload = function () {
+      setFavicon('17'); // Replace '5' with any number you want
+    };
+  </script>
+</head>
+
+<body>
+  <main>
+    <nav>
+      <a href="./index.html">
+        <h1>Movie App</h1>
+      </a>
+      <input type="text" placeholder="Search here..." id="search">
+    </nav>
+    <section class="movies">
+      <!-- <div class="movie">
+        <img src="https://image.tmdb.org/t/p/w500/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg" alt="">
+        <div class="movie-info">
+          <h3>Money Plane</h3>
+          <span class="movie-rating">8.5</span>
+        </div>
+        <div class="movie-overview">
+          <h3>Overview</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        </div>
+      </div> -->
+    </section>
+  </main>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
