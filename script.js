@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-	document.querySelectorAll('tbody > tr').forEach((tr) => {
+	for (const tr of document.querySelectorAll('tbody > tr')) {
 		const status = tr.querySelector('td:nth-child(2)');
 		const problemAnchor = tr.querySelector('td:nth-child(4) > a');
 		const solutionAnchor = tr.querySelector('td:nth-child(5) > a');
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		} else {
 			solutionAnchor.innerHTML = `${solutionAnchor.innerHTML}<i data-feather="check-circle"></i>`;
 		}
-	});
+	}
 
 	feather.replace();
 });
